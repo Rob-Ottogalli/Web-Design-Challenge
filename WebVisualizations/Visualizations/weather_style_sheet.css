@@ -12,16 +12,21 @@ body {
 /* Ids for NavBar 
 */
 #nav-background {
-    color: e7efecce;
+    color: #e7efecce;
     background: rgb(33, 143, 125);
 }
 
 /* Style for Sections
 */
 
+article {
+    margin: 25px;
+}
+
 .left-align {
-    width: 49%;
+    width: 50%;
     float: left;
+    background: e7efecce;
 }
 
 .right-align {
@@ -29,6 +34,12 @@ body {
     float: right;
 }
 
-header {
+h2 {
+    font-weight: thicker;
+}
 
+.image {
+    position: relative;
+    left: 15%;
+    text-align: center;
 }
