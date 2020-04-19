@@ -1,0 +1,30 @@
+/* Ids for NavBar 
+*/
+
+
+@media (min-width: 801px) {
+    #nav-background {
+        color: #e7efecce;
+        background: rgb(33, 143, 125);
+    }
+
+}
+
+@media (max-width: 800px) {
+    #nav-background {
+        color: #e7efecce;
+        background: #e7efecce;;
+    }
+    .rectangle {
+        padding: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        background: rgb(33, 143, 125);
+        border-radius: 3px;
+    }
+
+    .white-border{
+        border: 2px solid white;
+    }
+    navbar-light
+}

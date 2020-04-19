@@ -9,14 +9,9 @@ body {
     background: #f3f7f5ce;
   }
 
-/* Ids for NavBar 
-*/
-#nav-background {
-    color: #e7efecce;
-    background: rgb(33, 143, 125);
-}
 
-/* Style for Sections
+
+/* Style for Main Parts
 */
 
 .whitebox {
@@ -43,9 +38,14 @@ header h2 {
 
 .image {
     position: relative;
-    left: 15%;
-    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
 }
+
+/* Style for Visualizaiton Links
+*/
 
 .viz-links {
     position: relative;
