@@ -19,8 +19,10 @@ body {
 /* Style for Sections
 */
 
-article {
+.whitebox {
     margin: 25px;
+    padding: 20px;
+    background-color: white;
 }
 
 .left-align {
@@ -34,12 +36,54 @@ article {
     float: right;
 }
 
-h2 {
-    font-weight: thicker;
-}
+header h2 {
+        color: rgb(33, 143, 125);
+        text-align: center;
+    }
 
 .image {
     position: relative;
     left: 15%;
     text-align: center;
+}
+
+.viz-links {
+    position: relative;
+    margin: 25px;
+    padding: 5px;
+    height: 450px;
+    width: 500px;
+    float: right;
+}
+
+.viz-links-1 {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 216px;
+    height: 144px;
+}
+
+.viz-links-2 {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    width: 216px;
+    height: 144px;
+}
+
+.viz-links-3 {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    width: 216px;
+    height: 144px;
+}
+
+.viz-links-4 {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    width: 216px;
+    height: 144px;
 }
