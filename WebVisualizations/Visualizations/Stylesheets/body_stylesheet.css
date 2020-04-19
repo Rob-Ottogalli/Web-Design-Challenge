@@ -38,3 +38,9 @@ header h2 {
     float: left;
     background: e7efecce;
 }
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
