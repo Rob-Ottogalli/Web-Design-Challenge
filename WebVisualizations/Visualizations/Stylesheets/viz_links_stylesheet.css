@@ -1,18 +1,18 @@
 /* Style for Visualization Links
 */
 
-@media (min-width: 1001px) {
+@media (min-width: 601px) {
     .viz-links {
         position: relative;
         margin: 25px;
         padding: 5px;
         height: 450px;
         width: 500px;
-        float: right;
+
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 600px) {
     .viz-links {
         position: absolute;
         margin: 25px;
