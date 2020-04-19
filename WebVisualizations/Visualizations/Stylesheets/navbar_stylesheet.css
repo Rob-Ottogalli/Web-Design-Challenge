@@ -8,6 +8,9 @@
         background: rgb(33, 143, 125);
     }
 
+    .right-header {
+        margin-left: 70%;
+    }
 }
 
 @media (max-width: 800px) {
