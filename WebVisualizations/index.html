@@ -5,16 +5,16 @@
   <meta charset="UTF-8">
   <title>Main Page</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="Stylesheets/body_stylesheet.css">
-  <link rel="stylesheet" href="Stylesheets/navbar_stylesheet.css">
-  <link rel="stylesheet" href="Stylesheets/viz_links_stylesheet.css">
+  <link rel="stylesheet" href="Visualizations/Stylesheets/body_stylesheet.css">
+  <link rel="stylesheet" href="Visualizations/Stylesheets/navbar_stylesheet.css">
+  <link rel="stylesheet" href="Visualizations/Stylesheets/viz_links_stylesheet.css">
 </head>
 
 <body>
 
     <!--Navigation Bar-->
     <nav class="navbar navbar-expand-lg navbar-dark" id="nav-background">
-      <a class="navbar-brand rectangle" href="1_Landing_Page.html">Weather Data</a>
+      <a class="navbar-brand rectangle" href="index.html">Weather Data</a>
       <button class="navbar-toggler rectangle" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -26,17 +26,17 @@
               Plots
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="2_Plots_Max_Temp.html">Max Temperature</a>
-              <a class="dropdown-item" href="3_Plots_Humidity.html">Humidity</a>
-              <a class="dropdown-item" href="4_Plots_Cloudiness.html">Cloudiness</a>
-              <a class="dropdown-item" href="5_Plots_Wind_Speed.html">Wind Speed</a>
+              <a class="dropdown-item" href="Visualizations/2_Plots_Max_Temp.html">Max Temperature</a>
+              <a class="dropdown-item" href="Visualizations/3_Plots_Humidity.html">Humidity</a>
+              <a class="dropdown-item" href="Visualizations/4_Plots_Cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="Visualizations/5_Plots_Wind_Speed.html">Wind Speed</a>
             </div>
           </li>
           <li class="nav-item rectangle white-border">
-            <a class="nav-link" href="6_Comparisons.html">Comparison</a>
+            <a class="nav-link" href="Visualizations/6_Comparisons.html">Comparison</a>
           </li>
           <li class="nav-item rectangle white-border">
-            <a class="nav-link" href="7_Data.html">Data</a>
+            <a class="nav-link" href="Visualizations/7_Data.html">Data</a>
           </li>
         </ul>
       </div>
@@ -52,7 +52,7 @@
                 <h2>Weather Data</h2>
               </header>
               <hr>
-              <img src="../Assets/Global_Latitude_vs_Temp.png" alt="Global_Latitude_vs_Temp" class="image">
+              <img src="Assets/Global_Latitude_vs_Temp.png" alt="Global_Latitude_vs_Temp" class="image">
               <p>The purpose of this study was to examine how proximity to the Equator impacts temperature. To answer this question, we performed a series of API calls to pull weather data from OpenWeatherMap.org for over 500 cities around the world. The data collected focused on max temperature, humidity, cloudiness, and wind speed for each city and also collected each city’s geo-coordinates.  We then analyzed the data in Pandas and graphed each city’s weather against their respective latitudes using scatter plots in Matplotlib.</p>
               <p>Click on one of the visualizations in the menu for a deeper analysis of the data.</p>
           </article>
@@ -64,17 +64,17 @@
                 <h2>Visualizations</h2>
               </header>
               <hr>
-              <a href="2_Plots_Max_Temp.html">
-                <img target="_blank" src="../Assets/Global_Latitude_vs_Temp.png" alt="Tempurature Map" class="viz-links-1">
+              <a href="Visualizations/2_Plots_Max_Temp.html">
+                <img target="_blank" src="Assets/Global_Latitude_vs_Temp.png" alt="Tempurature Map" class="viz-links-1">
               </a>
-              <a href="3_Plots_Humidity.html">
-                <img target="_blank" src="../Assets/Global_Latitude_vs_Humidity.png" alt="Humidity Map" class="viz-links-2">
+              <a href="Visualizations/3_Plots_Humidity.html">
+                <img target="_blank" src="Assets/Global_Latitude_vs_Humidity.png" alt="Humidity Map" class="viz-links-2">
               </a>
-              <a href="4_Plots_Cloudiness.html">
-                <img target="_blank" src="../Assets/Global_Latitude_vs_Cloud.png" alt="Cloud Map" class="viz-links-3">
+              <a href="Visualizations/4_Plots_Cloudiness.html">
+                <img target="_blank" src="Assets/Global_Latitude_vs_Cloud.png" alt="Cloud Map" class="viz-links-3">
               </a>
-              <a href="5_Plots_Wind_Speed.html">
-                <img target="_blank" src="../Assets/Global_Latitude_vs_Wind.png" alt="Wind Map" class="viz-links-4">
+              <a href="Visualizations/5_Plots_Wind_Speed.html">
+                <img target="_blank" src="Assets/Global_Latitude_vs_Wind.png" alt="Wind Map" class="viz-links-4">
               </a>
             </div>
           </article>
