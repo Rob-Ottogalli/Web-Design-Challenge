@@ -25,6 +25,16 @@ header h2 {
         text-align: center;
     }
 
+header h3 {
+    color: rgb(33, 143, 125);
+    text-align: center;
+}
+
+header h4 {
+    color: rgb(33, 143, 125);
+    text-align: center;
+}
+
 .image {
     position: relative;
     display: block;
